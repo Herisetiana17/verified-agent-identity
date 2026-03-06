@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'heri setiana'
         required: true
-        default: 'heri AI Agent'
+        default: 'heri setiana AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "heri", "description": "lokie AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "heri setiana", "description": "heri setiana AI Agent"}'
